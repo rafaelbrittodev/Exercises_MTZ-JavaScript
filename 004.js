@@ -17,7 +17,7 @@ fechamento = '';
 
 if (media < 5) {
     fechamento = 'Reprovado';
-} else if (media == 5 && media <= 7) {
+} else if (media >= 5 && media <= 7) {
     fechamento = 'Em recuperação';
 } else if (media >= 8) {
     fechamento = 'Aprovado';
