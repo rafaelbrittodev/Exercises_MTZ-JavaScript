@@ -10,7 +10,7 @@ Classificação:
     - Média acima de 7, passou de semestre;
 */
 
-let alunoNotas = [5, 5, 5, 'Joãozinho', 50485,]
+let alunoNotas = [3, 8, 9, 'Joãozinho', 50485,]
 
 media = (alunoNotas[0] + alunoNotas[1] + alunoNotas[2]) / 3
 fechamento = '';
@@ -26,6 +26,6 @@ if (media < 5) {
 console.clear();
 console.log('Nome: ' + alunoNotas[3])
 console.log('Turma: ' + alunoNotas[4])
-console.log('Média: ' + media)
+console.log('Média: ' + media.toFixed(2))
 console.log('Situação: ' + fechamento) 
 
